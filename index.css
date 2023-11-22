@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --clr-bg: #3c90f6;
+    --clr-white: #F9FAF8;
+    --clr-grey: #E5E7EB;
+    --clr-btn: #3882F6;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+/* Header */
+.head {
+    display: flex;
+    background-color: var(--clr-bg);
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 15em;
+    
+    
+}
+
+.logo {
+    color: var(--clr-white);
+    font-weight: 900;
+    font-size: 24px;
+    color: black;
+}
+
+.head a{
+    color: black;
+
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--clr-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 170px 15em;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: var(--clr-white);
+    font-weight: bold;
+}
+
+.hero-content {
+    width: 450px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: var(--clr-grey);
+    margin-bottom: 6px;
+}
+
+button {
+    border: none;
+    background-color: var(--clr-btn);
+    padding: 5px 35px;
+    border-radius: 8px;
+    color: var(--clr-white);
+    font-weight: 800;
+}
+
+/* feature Section */
+.feature {
+    padding: 170px 11em;
+}
+
+.feature-title {
+    font-size: 36px;
+    color: var(--clr-bg);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+    gap: 8px;
+    color: var(--clr-bg);
+}
+
+.card img {
+    border-radius: 8px;
+    border: 2px solid var(--clr-btn);
+}
+
+/* Qoutes Section*/
+.qoutes {
+    padding: 100px 16.5em;
+    background-color: var(--clr-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--clr-bg);
+    
+    
+}
+
+.qoutes p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-wrap: wrap;
+}
+
+.qoutes strong {
+    font-size: 26px;
+    text-align: right;
+    padding-right: 20px;
+}
